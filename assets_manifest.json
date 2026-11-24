@@ -1,0 +1,362 @@
+[
+  {
+    "group": "imprenta_principal",
+    "name": "imprenta_principal_inactiva",
+    "file": "imprenta_principal/imprenta_principal_inactiva.png",
+    "size": [
+      440,
+      190
+    ],
+    "source_box": [
+      35,
+      0,
+      475,
+      190
+    ]
+  },
+  {
+    "group": "imprenta_principal",
+    "name": "imprenta_principal_disponible",
+    "file": "imprenta_principal/imprenta_principal_disponible.png",
+    "size": [
+      450,
+      180
+    ],
+    "source_box": [
+      25,
+      192,
+      475,
+      372
+    ]
+  },
+  {
+    "group": "imprenta_principal",
+    "name": "imprenta_principal_completada",
+    "file": "imprenta_principal/imprenta_principal_completada.png",
+    "size": [
+      448,
+      184
+    ],
+    "source_box": [
+      20,
+      376,
+      475,
+      560
+    ]
+  },
+  {
+    "group": "maquinas_titulares",
+    "name": "maquina_01_inactiva",
+    "file": "maquinas_titulares/maquina_01_inactiva.png",
+    "size": [
+      183,
+      170
+    ],
+    "source_box": [
+      530,
+      18,
+      713,
+      188
+    ]
+  },
+  {
+    "group": "maquinas_titulares",
+    "name": "maquina_01_disponible",
+    "file": "maquinas_titulares/maquina_01_disponible.png",
+    "size": [
+      170,
+      170
+    ],
+    "source_box": [
+      715,
+      18,
+      885,
+      188
+    ]
+  },
+  {
+    "group": "maquinas_titulares",
+    "name": "maquina_01_completada",
+    "file": "maquinas_titulares/maquina_01_completada.png",
+    "size": [
+      173,
+      170
+    ],
+    "source_box": [
+      880,
+      18,
+      1053,
+      188
+    ]
+  },
+  {
+    "group": "maquinas_titulares",
+    "name": "maquina_02_inactiva",
+    "file": "maquinas_titulares/maquina_02_inactiva.png",
+    "size": [
+      184,
+      163
+    ],
+    "source_box": [
+      530,
+      190,
+      714,
+      353
+    ]
+  },
+  {
+    "group": "maquinas_titulares",
+    "name": "maquina_02_disponible",
+    "file": "maquinas_titulares/maquina_02_disponible.png",
+    "size": [
+      170,
+      163
+    ],
+    "source_box": [
+      715,
+      190,
+      885,
+      353
+    ]
+  },
+  {
+    "group": "maquinas_titulares",
+    "name": "maquina_02_completada",
+    "file": "maquinas_titulares/maquina_02_completada.png",
+    "size": [
+      173,
+      163
+    ],
+    "source_box": [
+      880,
+      190,
+      1053,
+      353
+    ]
+  },
+  {
+    "group": "maquinas_titulares",
+    "name": "maquina_03_inactiva",
+    "file": "maquinas_titulares/maquina_03_inactiva.png",
+    "size": [
+      181,
+      169
+    ],
+    "source_box": [
+      530,
+      361,
+      714,
+      530
+    ]
+  },
+  {
+    "group": "maquinas_titulares",
+    "name": "maquina_03_disponible",
+    "file": "maquinas_titulares/maquina_03_disponible.png",
+    "size": [
+      170,
+      169
+    ],
+    "source_box": [
+      715,
+      361,
+      885,
+      530
+    ]
+  },
+  {
+    "group": "maquinas_titulares",
+    "name": "maquina_03_completada",
+    "file": "maquinas_titulares/maquina_03_completada.png",
+    "size": [
+      173,
+      169
+    ],
+    "source_box": [
+      880,
+      361,
+      1053,
+      530
+    ]
+  },
+  {
+    "group": "mecanismo_engranajes",
+    "name": "mecanismo_engranajes_inactiva",
+    "file": "mecanismo_engranajes/mecanismo_engranajes_inactiva.png",
+    "size": [
+      379,
+      176
+    ],
+    "source_box": [
+      1115,
+      10,
+      1515,
+      186
+    ]
+  },
+  {
+    "group": "mecanismo_engranajes",
+    "name": "mecanismo_engranajes_disponible",
+    "file": "mecanismo_engranajes/mecanismo_engranajes_disponible.png",
+    "size": [
+      382,
+      165
+    ],
+    "source_box": [
+      1115,
+      195,
+      1515,
+      360
+    ]
+  },
+  {
+    "group": "mecanismo_engranajes",
+    "name": "mecanismo_engranajes_completada",
+    "file": "mecanismo_engranajes/mecanismo_engranajes_completada.png",
+    "size": [
+      379,
+      155
+    ],
+    "source_box": [
+      1115,
+      380,
+      1515,
+      535
+    ]
+  },
+  {
+    "group": "circuito_interpretacion",
+    "name": "circuito_interpretacion_inactiva",
+    "file": "circuito_interpretacion/circuito_interpretacion_inactiva.png",
+    "size": [
+      165,
+      235
+    ],
+    "source_box": [
+      5,
+      628,
+      170,
+      865
+    ]
+  },
+  {
+    "group": "circuito_interpretacion",
+    "name": "circuito_interpretacion_disponible",
+    "file": "circuito_interpretacion/circuito_interpretacion_disponible.png",
+    "size": [
+      150,
+      237
+    ],
+    "source_box": [
+      192,
+      628,
+      342,
+      865
+    ]
+  },
+  {
+    "group": "circuito_interpretacion",
+    "name": "circuito_interpretacion_completada",
+    "file": "circuito_interpretacion/circuito_interpretacion_completada.png",
+    "size": [
+      148,
+      237
+    ],
+    "source_box": [
+      364,
+      628,
+      512,
+      865
+    ]
+  },
+  {
+    "group": "maquina_correctora",
+    "name": "maquina_correctora_inactiva",
+    "file": "maquina_correctora/maquina_correctora_inactiva.png",
+    "size": [
+      172,
+      237
+    ],
+    "source_box": [
+      528,
+      628,
+      700,
+      865
+    ]
+  },
+  {
+    "group": "maquina_correctora",
+    "name": "maquina_correctora_disponible",
+    "file": "maquina_correctora/maquina_correctora_disponible.png",
+    "size": [
+      165,
+      237
+    ],
+    "source_box": [
+      715,
+      628,
+      880,
+      865
+    ]
+  },
+  {
+    "group": "maquina_correctora",
+    "name": "maquina_correctora_completada",
+    "file": "maquina_correctora/maquina_correctora_completada.png",
+    "size": [
+      151,
+      237
+    ],
+    "source_box": [
+      897,
+      628,
+      1048,
+      865
+    ]
+  },
+  {
+    "group": "portal_final",
+    "name": "portal_final_inactiva",
+    "file": "portal_final/portal_final_inactiva.png",
+    "size": [
+      126,
+      237
+    ],
+    "source_box": [
+      1104,
+      628,
+      1230,
+      865
+    ]
+  },
+  {
+    "group": "portal_final",
+    "name": "portal_final_disponible",
+    "file": "portal_final/portal_final_disponible.png",
+    "size": [
+      128,
+      236
+    ],
+    "source_box": [
+      1252,
+      628,
+      1380,
+      865
+    ]
+  },
+  {
+    "group": "portal_final",
+    "name": "portal_final_completada",
+    "file": "portal_final/portal_final_completada.png",
+    "size": [
+      130,
+      240
+    ],
+    "source_box": [
+      1399,
+      625,
+      1529,
+      865
+    ]
+  }
+]
