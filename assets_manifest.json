@@ -1,362 +1,590 @@
-[
-  {
-    "group": "imprenta_principal",
-    "name": "imprenta_principal_inactiva",
-    "file": "imprenta_principal/imprenta_principal_inactiva.png",
-    "size": [
-      440,
-      190
-    ],
-    "source_box": [
-      35,
-      0,
-      475,
-      190
-    ]
-  },
-  {
-    "group": "imprenta_principal",
-    "name": "imprenta_principal_disponible",
-    "file": "imprenta_principal/imprenta_principal_disponible.png",
-    "size": [
-      450,
-      180
-    ],
-    "source_box": [
-      25,
-      192,
-      475,
-      372
-    ]
-  },
-  {
-    "group": "imprenta_principal",
-    "name": "imprenta_principal_completada",
-    "file": "imprenta_principal/imprenta_principal_completada.png",
-    "size": [
-      448,
-      184
-    ],
-    "source_box": [
-      20,
-      376,
-      475,
-      560
-    ]
-  },
-  {
-    "group": "maquinas_titulares",
-    "name": "maquina_01_inactiva",
-    "file": "maquinas_titulares/maquina_01_inactiva.png",
-    "size": [
-      183,
-      170
-    ],
-    "source_box": [
-      530,
-      18,
-      713,
-      188
-    ]
-  },
-  {
-    "group": "maquinas_titulares",
-    "name": "maquina_01_disponible",
-    "file": "maquinas_titulares/maquina_01_disponible.png",
-    "size": [
-      170,
-      170
-    ],
-    "source_box": [
-      715,
-      18,
-      885,
-      188
-    ]
-  },
-  {
-    "group": "maquinas_titulares",
-    "name": "maquina_01_completada",
-    "file": "maquinas_titulares/maquina_01_completada.png",
-    "size": [
-      173,
-      170
-    ],
-    "source_box": [
-      880,
-      18,
-      1053,
-      188
-    ]
-  },
-  {
-    "group": "maquinas_titulares",
-    "name": "maquina_02_inactiva",
-    "file": "maquinas_titulares/maquina_02_inactiva.png",
-    "size": [
-      184,
-      163
-    ],
-    "source_box": [
-      530,
-      190,
-      714,
-      353
-    ]
-  },
-  {
-    "group": "maquinas_titulares",
-    "name": "maquina_02_disponible",
-    "file": "maquinas_titulares/maquina_02_disponible.png",
-    "size": [
-      170,
-      163
-    ],
-    "source_box": [
-      715,
-      190,
-      885,
-      353
-    ]
-  },
-  {
-    "group": "maquinas_titulares",
-    "name": "maquina_02_completada",
-    "file": "maquinas_titulares/maquina_02_completada.png",
-    "size": [
-      173,
-      163
-    ],
-    "source_box": [
-      880,
-      190,
-      1053,
-      353
-    ]
-  },
-  {
-    "group": "maquinas_titulares",
-    "name": "maquina_03_inactiva",
-    "file": "maquinas_titulares/maquina_03_inactiva.png",
-    "size": [
-      181,
-      169
-    ],
-    "source_box": [
-      530,
-      361,
-      714,
-      530
-    ]
-  },
-  {
-    "group": "maquinas_titulares",
-    "name": "maquina_03_disponible",
-    "file": "maquinas_titulares/maquina_03_disponible.png",
-    "size": [
-      170,
-      169
-    ],
-    "source_box": [
-      715,
-      361,
-      885,
-      530
-    ]
-  },
-  {
-    "group": "maquinas_titulares",
-    "name": "maquina_03_completada",
-    "file": "maquinas_titulares/maquina_03_completada.png",
-    "size": [
-      173,
-      169
-    ],
-    "source_box": [
-      880,
-      361,
-      1053,
-      530
-    ]
-  },
-  {
-    "group": "mecanismo_engranajes",
-    "name": "mecanismo_engranajes_inactiva",
-    "file": "mecanismo_engranajes/mecanismo_engranajes_inactiva.png",
-    "size": [
-      379,
-      176
-    ],
-    "source_box": [
-      1115,
-      10,
-      1515,
-      186
-    ]
-  },
-  {
-    "group": "mecanismo_engranajes",
-    "name": "mecanismo_engranajes_disponible",
-    "file": "mecanismo_engranajes/mecanismo_engranajes_disponible.png",
-    "size": [
-      382,
-      165
-    ],
-    "source_box": [
-      1115,
-      195,
-      1515,
-      360
-    ]
-  },
-  {
-    "group": "mecanismo_engranajes",
-    "name": "mecanismo_engranajes_completada",
-    "file": "mecanismo_engranajes/mecanismo_engranajes_completada.png",
-    "size": [
-      379,
-      155
-    ],
-    "source_box": [
-      1115,
-      380,
-      1515,
-      535
-    ]
-  },
-  {
-    "group": "circuito_interpretacion",
-    "name": "circuito_interpretacion_inactiva",
-    "file": "circuito_interpretacion/circuito_interpretacion_inactiva.png",
-    "size": [
-      165,
-      235
-    ],
-    "source_box": [
-      5,
-      628,
-      170,
-      865
-    ]
-  },
-  {
-    "group": "circuito_interpretacion",
-    "name": "circuito_interpretacion_disponible",
-    "file": "circuito_interpretacion/circuito_interpretacion_disponible.png",
-    "size": [
-      150,
-      237
-    ],
-    "source_box": [
-      192,
-      628,
-      342,
-      865
-    ]
-  },
-  {
-    "group": "circuito_interpretacion",
-    "name": "circuito_interpretacion_completada",
-    "file": "circuito_interpretacion/circuito_interpretacion_completada.png",
-    "size": [
-      148,
-      237
-    ],
-    "source_box": [
-      364,
-      628,
-      512,
-      865
-    ]
-  },
-  {
-    "group": "maquina_correctora",
-    "name": "maquina_correctora_inactiva",
-    "file": "maquina_correctora/maquina_correctora_inactiva.png",
-    "size": [
-      172,
-      237
-    ],
-    "source_box": [
-      528,
-      628,
-      700,
-      865
-    ]
-  },
-  {
-    "group": "maquina_correctora",
-    "name": "maquina_correctora_disponible",
-    "file": "maquina_correctora/maquina_correctora_disponible.png",
-    "size": [
-      165,
-      237
-    ],
-    "source_box": [
-      715,
-      628,
-      880,
-      865
-    ]
-  },
-  {
-    "group": "maquina_correctora",
-    "name": "maquina_correctora_completada",
-    "file": "maquina_correctora/maquina_correctora_completada.png",
-    "size": [
-      151,
-      237
-    ],
-    "source_box": [
-      897,
-      628,
-      1048,
-      865
-    ]
-  },
-  {
-    "group": "portal_final",
-    "name": "portal_final_inactiva",
-    "file": "portal_final/portal_final_inactiva.png",
-    "size": [
-      126,
-      237
-    ],
-    "source_box": [
-      1104,
-      628,
-      1230,
-      865
-    ]
-  },
-  {
-    "group": "portal_final",
-    "name": "portal_final_disponible",
-    "file": "portal_final/portal_final_disponible.png",
-    "size": [
-      128,
-      236
-    ],
-    "source_box": [
-      1252,
-      628,
-      1380,
-      865
-    ]
-  },
-  {
-    "group": "portal_final",
-    "name": "portal_final_completada",
-    "file": "portal_final/portal_final_completada.png",
-    "size": [
-      130,
-      240
-    ],
-    "source_box": [
-      1399,
-      625,
-      1529,
-      865
-    ]
-  }
-]
+{
+  "package": "07_instrucciones",
+  "assets": [
+    {
+      "group": "01_paneles_referencia",
+      "id": "encabezado_como_jugar",
+      "file": "01_paneles_referencia/encabezado_como_jugar.png",
+      "width": 753,
+      "height": 181,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        390,
+        0,
+        1143,
+        181
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "01_paneles_referencia",
+      "id": "tarjeta_moverse",
+      "file": "01_paneles_referencia/tarjeta_moverse.png",
+      "width": 445,
+      "height": 387,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        10,
+        188,
+        455,
+        575
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "01_paneles_referencia",
+      "id": "tarjeta_saltar",
+      "file": "01_paneles_referencia/tarjeta_saltar.png",
+      "width": 365,
+      "height": 387,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        463,
+        188,
+        828,
+        575
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "01_paneles_referencia",
+      "id": "tarjeta_interactuar",
+      "file": "01_paneles_referencia/tarjeta_interactuar.png",
+      "width": 359,
+      "height": 387,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        833,
+        188,
+        1192,
+        575
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "01_paneles_referencia",
+      "id": "tarjeta_pausar",
+      "file": "01_paneles_referencia/tarjeta_pausar.png",
+      "width": 328,
+      "height": 387,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        1204,
+        188,
+        1532,
+        575
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "01_paneles_referencia",
+      "id": "panel_controles_tactiles",
+      "file": "01_paneles_referencia/panel_controles_tactiles.png",
+      "width": 775,
+      "height": 175,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        11,
+        588,
+        786,
+        763
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "01_paneles_referencia",
+      "id": "panel_recoger_pistas",
+      "file": "01_paneles_referencia/panel_recoger_pistas.png",
+      "width": 362,
+      "height": 175,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        798,
+        587,
+        1160,
+        762
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "01_paneles_referencia",
+      "id": "panel_superar_retos",
+      "file": "01_paneles_referencia/panel_superar_retos.png",
+      "width": 371,
+      "height": 175,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        1161,
+        588,
+        1532,
+        763
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "01_paneles_referencia",
+      "id": "panel_ejemplo_interaccion",
+      "file": "01_paneles_referencia/panel_ejemplo_interaccion.png",
+      "width": 1046,
+      "height": 246,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        20,
+        764,
+        1066,
+        1010
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "01_paneles_referencia",
+      "id": "panel_punto_control",
+      "file": "01_paneles_referencia/panel_punto_control.png",
+      "width": 460,
+      "height": 235,
+      "usage": "referencia_estetica_con_texto_integrado",
+      "source_box": [
+        1067,
+        780,
+        1527,
+        1015
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "02_teclas_teclado",
+      "id": "tecla_a",
+      "file": "02_teclas_teclado/tecla_a.png",
+      "width": 53,
+      "height": 56,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        141,
+        268,
+        194,
+        324
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "02_teclas_teclado",
+      "id": "tecla_d",
+      "file": "02_teclas_teclado/tecla_d.png",
+      "width": 59,
+      "height": 56,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        201,
+        268,
+        260,
+        324
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "02_teclas_teclado",
+      "id": "flecha_izquierda",
+      "file": "02_teclas_teclado/flecha_izquierda.png",
+      "width": 63,
+      "height": 56,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        301,
+        268,
+        364,
+        324
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "02_teclas_teclado",
+      "id": "flecha_derecha",
+      "file": "02_teclas_teclado/flecha_derecha.png",
+      "width": 59,
+      "height": 56,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        369,
+        268,
+        428,
+        324
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "02_teclas_teclado",
+      "id": "tecla_w",
+      "file": "02_teclas_teclado/tecla_w.png",
+      "width": 58,
+      "height": 54,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        500,
+        262,
+        558,
+        316
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "02_teclas_teclado",
+      "id": "flecha_arriba",
+      "file": "02_teclas_teclado/flecha_arriba.png",
+      "width": 64,
+      "height": 53,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        565,
+        263,
+        629,
+        316
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "02_teclas_teclado",
+      "id": "barra_espacio",
+      "file": "02_teclas_teclado/barra_espacio.png",
+      "width": 134,
+      "height": 61,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        668,
+        259,
+        802,
+        320
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "02_teclas_teclado",
+      "id": "tecla_e",
+      "file": "02_teclas_teclado/tecla_e.png",
+      "width": 67,
+      "height": 64,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        938,
+        259,
+        1005,
+        323
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "02_teclas_teclado",
+      "id": "tecla_esc",
+      "file": "02_teclas_teclado/tecla_esc.png",
+      "width": 75,
+      "height": 63,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        1330,
+        255,
+        1405,
+        318
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "03_controles_tactiles",
+      "id": "boton_izquierda",
+      "file": "03_controles_tactiles/boton_izquierda.png",
+      "width": 83,
+      "height": 79,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        250,
+        625,
+        333,
+        704
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "03_controles_tactiles",
+      "id": "boton_derecha",
+      "file": "03_controles_tactiles/boton_derecha.png",
+      "width": 85,
+      "height": 79,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        325,
+        625,
+        410,
+        704
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "03_controles_tactiles",
+      "id": "boton_saltar",
+      "file": "03_controles_tactiles/boton_saltar.png",
+      "width": 81,
+      "height": 81,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        441,
+        622,
+        522,
+        703
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "03_controles_tactiles",
+      "id": "boton_interactuar",
+      "file": "03_controles_tactiles/boton_interactuar.png",
+      "width": 81,
+      "height": 87,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        563,
+        616,
+        644,
+        703
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "03_controles_tactiles",
+      "id": "boton_pausa",
+      "file": "03_controles_tactiles/boton_pausa.png",
+      "width": 77,
+      "height": 83,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        683,
+        622,
+        760,
+        705
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "milo_corriendo_01",
+      "file": "04_demostraciones/milo_corriendo_01.png",
+      "width": 155,
+      "height": 150,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        72,
+        407,
+        227,
+        557
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "milo_corriendo_02",
+      "file": "04_demostraciones/milo_corriendo_02.png",
+      "width": 156,
+      "height": 152,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        260,
+        402,
+        416,
+        554
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "milo_salto_inicio",
+      "file": "04_demostraciones/milo_salto_inicio.png",
+      "width": 122,
+      "height": 122,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        483,
+        430,
+        605,
+        552
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "milo_salto_aire",
+      "file": "04_demostraciones/milo_salto_aire.png",
+      "width": 114,
+      "height": 104,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        603,
+        393,
+        717,
+        497
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "milo_aterrizaje",
+      "file": "04_demostraciones/milo_aterrizaje.png",
+      "width": 93,
+      "height": 118,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        709,
+        398,
+        802,
+        516
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "milo_maquina_interactiva",
+      "file": "04_demostraciones/milo_maquina_interactiva.png",
+      "width": 296,
+      "height": 157,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        890,
+        394,
+        1186,
+        551
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "demostracion_01_acercarse",
+      "file": "04_demostraciones/demostracion_01_acercarse.png",
+      "width": 379,
+      "height": 151,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        28,
+        820,
+        407,
+        971
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "demostracion_02_pulsar_e",
+      "file": "04_demostraciones/demostracion_02_pulsar_e.png",
+      "width": 268,
+      "height": 150,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        442,
+        821,
+        710,
+        971
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "demostracion_03_resolver_reto",
+      "file": "04_demostraciones/demostracion_03_resolver_reto.png",
+      "width": 277,
+      "height": 150,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        753,
+        821,
+        1030,
+        971
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "04_demostraciones",
+      "id": "banderin_checkpoint",
+      "file": "04_demostraciones/banderin_checkpoint.png",
+      "width": 159,
+      "height": 187,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        1089,
+        801,
+        1248,
+        988
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "05_iconos_instrucciones",
+      "id": "icono_pausar",
+      "file": "05_iconos_instrucciones/icono_pausar.png",
+      "width": 204,
+      "height": 138,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        1280,
+        405,
+        1484,
+        543
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "05_iconos_instrucciones",
+      "id": "icono_recoger_pistas",
+      "file": "05_iconos_instrucciones/icono_recoger_pistas.png",
+      "width": 109,
+      "height": 113,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        814,
+        616,
+        923,
+        729
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "05_iconos_instrucciones",
+      "id": "icono_superar_retos",
+      "file": "05_iconos_instrucciones/icono_superar_retos.png",
+      "width": 119,
+      "height": 129,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        1182,
+        610,
+        1301,
+        739
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "05_iconos_instrucciones",
+      "id": "icono_telefono",
+      "file": "05_iconos_instrucciones/icono_telefono.png",
+      "width": 71,
+      "height": 106,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        20,
+        616,
+        91,
+        722
+      ],
+      "transparent_background_guaranteed": false
+    },
+    {
+      "group": "05_iconos_instrucciones",
+      "id": "icono_interaccion_mano",
+      "file": "05_iconos_instrucciones/icono_interaccion_mano.png",
+      "width": 66,
+      "height": 63,
+      "usage": "detalle_recortado_con_posible_fondo_original",
+      "source_box": [
+        1025,
+        255,
+        1091,
+        318
+      ],
+      "transparent_background_guaranteed": false
+    }
+  ]
+}
