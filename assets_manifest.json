@@ -1,590 +1,391 @@
 {
-  "package": "07_instrucciones",
+  "pack": "10_checkpoint_logros",
+  "source_file": "Recursos de juego steampunk ilustrados(1).png",
+  "count": 24,
   "assets": [
     {
-      "group": "01_paneles_referencia",
-      "id": "encabezado_como_jugar",
-      "file": "01_paneles_referencia/encabezado_como_jugar.png",
-      "width": 753,
-      "height": 181,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        390,
+      "id": "checkpoint_inactivo",
+      "folder": "01_checkpoints",
+      "file": "01_checkpoints/checkpoint_inactivo.png",
+      "dimensions_px": [
+        264,
+        269
+      ],
+      "source_crop_xyxy": [
+        8,
         0,
-        1143,
-        181
+        282,
+        302
       ],
-      "transparent_background_guaranteed": false
+      "usage": "game_sprite"
     },
     {
-      "group": "01_paneles_referencia",
-      "id": "tarjeta_moverse",
-      "file": "01_paneles_referencia/tarjeta_moverse.png",
-      "width": 445,
-      "height": 387,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        10,
-        188,
-        455,
-        575
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "01_paneles_referencia",
-      "id": "tarjeta_saltar",
-      "file": "01_paneles_referencia/tarjeta_saltar.png",
-      "width": 365,
-      "height": 387,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        463,
-        188,
-        828,
-        575
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "01_paneles_referencia",
-      "id": "tarjeta_interactuar",
-      "file": "01_paneles_referencia/tarjeta_interactuar.png",
-      "width": 359,
-      "height": 387,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        833,
-        188,
-        1192,
-        575
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "01_paneles_referencia",
-      "id": "tarjeta_pausar",
-      "file": "01_paneles_referencia/tarjeta_pausar.png",
-      "width": 328,
-      "height": 387,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        1204,
-        188,
-        1532,
-        575
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "01_paneles_referencia",
-      "id": "panel_controles_tactiles",
-      "file": "01_paneles_referencia/panel_controles_tactiles.png",
-      "width": 775,
-      "height": 175,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        11,
-        588,
-        786,
-        763
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "01_paneles_referencia",
-      "id": "panel_recoger_pistas",
-      "file": "01_paneles_referencia/panel_recoger_pistas.png",
-      "width": 362,
-      "height": 175,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        798,
-        587,
-        1160,
-        762
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "01_paneles_referencia",
-      "id": "panel_superar_retos",
-      "file": "01_paneles_referencia/panel_superar_retos.png",
-      "width": 371,
-      "height": 175,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        1161,
-        588,
-        1532,
-        763
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "01_paneles_referencia",
-      "id": "panel_ejemplo_interaccion",
-      "file": "01_paneles_referencia/panel_ejemplo_interaccion.png",
-      "width": 1046,
-      "height": 246,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        20,
-        764,
-        1066,
-        1010
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "01_paneles_referencia",
-      "id": "panel_punto_control",
-      "file": "01_paneles_referencia/panel_punto_control.png",
-      "width": 460,
-      "height": 235,
-      "usage": "referencia_estetica_con_texto_integrado",
-      "source_box": [
-        1067,
-        780,
-        1527,
-        1015
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "02_teclas_teclado",
-      "id": "tecla_a",
-      "file": "02_teclas_teclado/tecla_a.png",
-      "width": 53,
-      "height": 56,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        141,
-        268,
-        194,
-        324
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "02_teclas_teclado",
-      "id": "tecla_d",
-      "file": "02_teclas_teclado/tecla_d.png",
-      "width": 59,
-      "height": 56,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        201,
-        268,
+      "id": "checkpoint_activado",
+      "folder": "01_checkpoints",
+      "file": "01_checkpoints/checkpoint_activado.png",
+      "dimensions_px": [
         260,
-        324
+        282
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        298,
+        0,
+        578,
+        302
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "02_teclas_teclado",
-      "id": "flecha_izquierda",
-      "file": "02_teclas_teclado/flecha_izquierda.png",
-      "width": 63,
-      "height": 56,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        301,
-        268,
-        364,
-        324
+      "id": "checkpoint_completado",
+      "folder": "01_checkpoints",
+      "file": "01_checkpoints/checkpoint_completado.png",
+      "dimensions_px": [
+        264,
+        302
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        583,
+        0,
+        863,
+        302
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "02_teclas_teclado",
-      "id": "flecha_derecha",
-      "file": "02_teclas_teclado/flecha_derecha.png",
-      "width": 59,
-      "height": 56,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        369,
-        268,
-        428,
-        324
+      "id": "sello_libro",
+      "folder": "02_sellos_logro",
+      "file": "02_sellos_logro/sello_libro.png",
+      "dimensions_px": [
+        191,
+        190
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        8,
+        308,
+        207,
+        507
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "02_teclas_teclado",
-      "id": "tecla_w",
-      "file": "02_teclas_teclado/tecla_w.png",
-      "width": 58,
-      "height": 54,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        500,
-        262,
-        558,
-        316
+      "id": "sello_lupa",
+      "folder": "02_sellos_logro",
+      "file": "02_sellos_logro/sello_lupa.png",
+      "dimensions_px": [
+        187,
+        186
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        208,
+        310,
+        395,
+        505
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "02_teclas_teclado",
-      "id": "flecha_arriba",
-      "file": "02_teclas_teclado/flecha_arriba.png",
-      "width": 64,
-      "height": 53,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        565,
-        263,
-        629,
-        316
+      "id": "sello_engranajes",
+      "folder": "02_sellos_logro",
+      "file": "02_sellos_logro/sello_engranajes.png",
+      "dimensions_px": [
+        174,
+        188
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        396,
+        310,
+        570,
+        507
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "02_teclas_teclado",
-      "id": "barra_espacio",
-      "file": "02_teclas_teclado/barra_espacio.png",
-      "width": 134,
-      "height": 61,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        668,
-        259,
-        802,
-        320
+      "id": "sello_validacion",
+      "folder": "02_sellos_logro",
+      "file": "02_sellos_logro/sello_validacion.png",
+      "dimensions_px": [
+        176,
+        185
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        573,
+        310,
+        749,
+        507
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "02_teclas_teclado",
-      "id": "tecla_e",
-      "file": "02_teclas_teclado/tecla_e.png",
-      "width": 67,
-      "height": 64,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        938,
-        259,
-        1005,
-        323
+      "id": "sello_estrella",
+      "folder": "02_sellos_logro",
+      "file": "02_sellos_logro/sello_estrella.png",
+      "dimensions_px": [
+        180,
+        190
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        751,
+        307,
+        931,
+        508
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "02_teclas_teclado",
-      "id": "tecla_esc",
-      "file": "02_teclas_teclado/tecla_esc.png",
-      "width": 75,
-      "height": 63,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        1330,
-        255,
-        1405,
-        318
+      "id": "compuerta_cerrada",
+      "folder": "03_compuertas",
+      "file": "03_compuertas/compuerta_cerrada.png",
+      "dimensions_px": [
+        449,
+        312
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        17,
+        511,
+        466,
+        826
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "03_controles_tactiles",
-      "id": "boton_izquierda",
-      "file": "03_controles_tactiles/boton_izquierda.png",
-      "width": 83,
-      "height": 79,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        250,
-        625,
-        333,
-        704
+      "id": "compuerta_abierta",
+      "folder": "03_compuertas",
+      "file": "03_compuertas/compuerta_abierta.png",
+      "dimensions_px": [
+        457,
+        313
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        505,
+        511,
+        963,
+        824
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "03_controles_tactiles",
-      "id": "boton_derecha",
-      "file": "03_controles_tactiles/boton_derecha.png",
-      "width": 85,
-      "height": 79,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        325,
-        625,
-        410,
-        704
+      "id": "cofre_cerrado",
+      "folder": "04_cofres",
+      "file": "04_cofres/cofre_cerrado.png",
+      "dimensions_px": [
+        254,
+        227
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        970,
+        580,
+        1234,
+        812
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "03_controles_tactiles",
-      "id": "boton_saltar",
-      "file": "03_controles_tactiles/boton_saltar.png",
-      "width": 81,
-      "height": 81,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        441,
-        622,
-        522,
-        703
+      "id": "cofre_abierto",
+      "folder": "04_cofres",
+      "file": "04_cofres/cofre_abierto.png",
+      "dimensions_px": [
+        281,
+        233
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        1240,
+        578,
+        1525,
+        816
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "03_controles_tactiles",
-      "id": "boton_interactuar",
-      "file": "03_controles_tactiles/boton_interactuar.png",
-      "width": 81,
-      "height": 87,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        563,
-        616,
-        644,
-        703
+      "id": "engranaje_inactivo",
+      "folder": "05_engranajes_estado",
+      "file": "05_engranajes_estado/engranaje_inactivo.png",
+      "dimensions_px": [
+        167,
+        155
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        22,
+        836,
+        198,
+        1018
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "03_controles_tactiles",
-      "id": "boton_pausa",
-      "file": "03_controles_tactiles/boton_pausa.png",
-      "width": 77,
-      "height": 83,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        683,
-        622,
-        760,
-        705
+      "id": "engranaje_disponible",
+      "folder": "05_engranajes_estado",
+      "file": "05_engranajes_estado/engranaje_disponible.png",
+      "dimensions_px": [
+        187,
+        178
       ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "04_demostraciones",
-      "id": "milo_corriendo_01",
-      "file": "04_demostraciones/milo_corriendo_01.png",
-      "width": 155,
-      "height": 150,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        72,
-        407,
-        227,
-        557
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "04_demostraciones",
-      "id": "milo_corriendo_02",
-      "file": "04_demostraciones/milo_corriendo_02.png",
-      "width": 156,
-      "height": 152,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        260,
-        402,
-        416,
-        554
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "04_demostraciones",
-      "id": "milo_salto_inicio",
-      "file": "04_demostraciones/milo_salto_inicio.png",
-      "width": 122,
-      "height": 122,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        483,
-        430,
-        605,
-        552
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "04_demostraciones",
-      "id": "milo_salto_aire",
-      "file": "04_demostraciones/milo_salto_aire.png",
-      "width": 114,
-      "height": 104,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        603,
-        393,
-        717,
-        497
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "04_demostraciones",
-      "id": "milo_aterrizaje",
-      "file": "04_demostraciones/milo_aterrizaje.png",
-      "width": 93,
-      "height": 118,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        709,
-        398,
-        802,
-        516
-      ],
-      "transparent_background_guaranteed": false
-    },
-    {
-      "group": "04_demostraciones",
-      "id": "milo_maquina_interactiva",
-      "file": "04_demostraciones/milo_maquina_interactiva.png",
-      "width": 296,
-      "height": 157,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        890,
+      "source_crop_xyxy": [
+        207,
+        840,
         394,
-        1186,
-        551
+        1018
       ],
-      "transparent_background_guaranteed": false
+      "usage": "game_sprite"
     },
     {
-      "group": "04_demostraciones",
-      "id": "demostracion_01_acercarse",
-      "file": "04_demostraciones/demostracion_01_acercarse.png",
-      "width": 379,
-      "height": 151,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        28,
-        820,
-        407,
-        971
+      "id": "engranaje_completado",
+      "folder": "05_engranajes_estado",
+      "file": "05_engranajes_estado/engranaje_completado.png",
+      "dimensions_px": [
+        195,
+        167
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        400,
+        836,
+        595,
+        1018
+      ],
+      "usage": "game_sprite"
     },
     {
-      "group": "04_demostraciones",
-      "id": "demostracion_02_pulsar_e",
-      "file": "04_demostraciones/demostracion_02_pulsar_e.png",
-      "width": 268,
-      "height": 150,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        442,
-        821,
-        710,
-        971
+      "id": "chispas_doradas",
+      "folder": "06_efectos",
+      "file": "06_efectos/chispas_doradas.png",
+      "dimensions_px": [
+        190,
+        199
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        873,
+        42,
+        1063,
+        244
+      ],
+      "usage": "particle_overlay"
     },
     {
-      "group": "04_demostraciones",
-      "id": "demostracion_03_resolver_reto",
-      "file": "04_demostraciones/demostracion_03_resolver_reto.png",
-      "width": 277,
-      "height": 150,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        753,
-        821,
-        1030,
-        971
+      "id": "estela_particulas",
+      "folder": "06_efectos",
+      "file": "06_efectos/estela_particulas.png",
+      "dimensions_px": [
+        268,
+        206
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        1049,
+        47,
+        1317,
+        253
+      ],
+      "usage": "particle_overlay"
     },
     {
-      "group": "04_demostraciones",
-      "id": "banderin_checkpoint",
-      "file": "04_demostraciones/banderin_checkpoint.png",
-      "width": 159,
-      "height": 187,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        1089,
-        801,
-        1248,
-        988
+      "id": "anillo_dorado",
+      "folder": "06_efectos",
+      "file": "06_efectos/anillo_dorado.png",
+      "dimensions_px": [
+        211,
+        209
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        1319,
+        55,
+        1530,
+        275
+      ],
+      "usage": "particle_overlay"
     },
     {
-      "group": "05_iconos_instrucciones",
-      "id": "icono_pausar",
-      "file": "05_iconos_instrucciones/icono_pausar.png",
-      "width": 204,
-      "height": 138,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        1280,
-        405,
-        1484,
-        543
+      "id": "halo_activacion",
+      "folder": "06_efectos",
+      "file": "06_efectos/halo_activacion.png",
+      "dimensions_px": [
+        236,
+        203
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        927,
+        283,
+        1163,
+        486
+      ],
+      "usage": "particle_overlay"
     },
     {
-      "group": "05_iconos_instrucciones",
-      "id": "icono_recoger_pistas",
-      "file": "05_iconos_instrucciones/icono_recoger_pistas.png",
-      "width": 109,
-      "height": 113,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        814,
-        616,
-        923,
-        729
+      "id": "rayo_recompensa",
+      "folder": "06_efectos",
+      "file": "06_efectos/rayo_recompensa.png",
+      "dimensions_px": [
+        145,
+        214
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        1161,
+        275,
+        1306,
+        489
+      ],
+      "usage": "particle_overlay"
     },
     {
-      "group": "05_iconos_instrucciones",
-      "id": "icono_superar_retos",
-      "file": "05_iconos_instrucciones/icono_superar_retos.png",
-      "width": 119,
-      "height": 129,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        1182,
-        610,
-        1301,
-        739
+      "id": "confeti_colores",
+      "folder": "06_efectos",
+      "file": "06_efectos/confeti_colores.png",
+      "dimensions_px": [
+        210,
+        201
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        1314,
+        283,
+        1533,
+        496
+      ],
+      "usage": "particle_overlay"
     },
     {
-      "group": "05_iconos_instrucciones",
-      "id": "icono_telefono",
-      "file": "05_iconos_instrucciones/icono_telefono.png",
-      "width": 71,
-      "height": 106,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        20,
-        616,
-        91,
-        722
+      "id": "anillo_suelo",
+      "folder": "06_efectos",
+      "file": "06_efectos/anillo_suelo.png",
+      "dimensions_px": [
+        288,
+        161
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        619,
+        848,
+        907,
+        1009
+      ],
+      "usage": "particle_overlay"
     },
     {
-      "group": "05_iconos_instrucciones",
-      "id": "icono_interaccion_mano",
-      "file": "05_iconos_instrucciones/icono_interaccion_mano.png",
-      "width": 66,
-      "height": 63,
-      "usage": "detalle_recortado_con_posible_fondo_original",
-      "source_box": [
-        1025,
-        255,
-        1091,
-        318
+      "id": "estela_azul",
+      "folder": "06_efectos",
+      "file": "06_efectos/estela_azul.png",
+      "dimensions_px": [
+        279,
+        183
       ],
-      "transparent_background_guaranteed": false
+      "source_crop_xyxy": [
+        942,
+        823,
+        1221,
+        1017
+      ],
+      "usage": "particle_overlay"
+    },
+    {
+      "id": "estrellas_victoria",
+      "folder": "06_efectos",
+      "file": "06_efectos/estrellas_victoria.png",
+      "dimensions_px": [
+        285,
+        182
+      ],
+      "source_crop_xyxy": [
+        1225,
+        831,
+        1532,
+        1020
+      ],
+      "usage": "particle_overlay"
     }
   ]
 }

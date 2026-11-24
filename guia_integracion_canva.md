@@ -1,20 +1,14 @@
-# SerFlex · Paquete 07: Gráficos de instrucciones
+# Paquete 10 · Puntos de control y efectos de logro
 
-**Este grupo se ha preparado a partir de la guía ilustrada original, sin regenerar ni modificar sus personajes ni su contenido.**
+Contiene PNG individuales extraídos de la lámina original, un inventario JSON y una vista previa.
 
-Se incluyen paneles completos como referencias visuales y recortes detallados de teclas, botones táctiles, poses y ejemplos interactivos. La fuente es una única composición ilustrada: varios fragmentos incluyen partes del fondo o de la cartela original y **no son sprites limpios de fondo completamente transparente**.
+## Implementación
+- `01_checkpoints`: tres estados del banderín (inactivo, activado, completado).
+- `02_sellos_logro`: cinco insignias reutilizables.
+- `03_compuertas`: versión cerrada y abierta; la colisión debe controlarse por código.
+- `04_cofres`: cerrado y abierto; enlazar su estado al progreso.
+- `05_engranajes_estado`: tres versiones para estados del juego.
+- `06_efectos`: superposiciones transparentes para animaciones breves sin crear variantes adicionales.
 
-## Organización
-- `01_paneles_referencia`: láminas con texto ya incrustado; usarlas como referencia o ayuda visual estática, no como formulario interactivo.
-- `02_teclas_teclado`: A, D, flechas, W, espacio, E y Esc.
-- `03_controles_tactiles`: dirección, salto, interactuar y pausa.
-- `04_demostraciones`: Milo corriendo y saltando, máquina interactiva, tres pasos y banderín.
-- `05_iconos_instrucciones`: iconos destacados.
-
-## Uso correcto con Canva Code
-1. El panel «Instrucciones» definitivo debe tener textos en HTML/CSS, no incrustados en los PNG.
-2. Las teclas y botones extraídos son gráficos, no eventos activos: conectar controles mediante HTML/JavaScript.
-3. Las demostraciones pueden usarse como ilustraciones en ventanas de ayuda; no usarlas como sprites de la física del juego. Para eso utilizar los sprites de Milo del grupo 01.
-4. Los paneles completos contienen textos de ejemplo, y puede haber repeticiones o errores de legibilidad. No duplicar textos visibles encima.
-5. Las imágenes recortadas con margen del fondo original no deben prometerse como PNG con fondo perfectamente transparente. Si se necesitan sprites puros, conviene partir de los grupos 01 y 04 previamente separados, o generar las teclas con CSS.
-6. Mantener el foco del teclado en el juego y asegurar controles móviles mediante botones HTML funcionales.
+### Advertencias de calidad
+Los halos brillantes proceden de una imagen generada y conservan zonas semitransparentes. Puede haber pequeños residuos de color en algunos bordes, especialmente en los efectos. En Canva Code, no uses las imágenes para determinar colisiones ni posiciones. Los PNG son recursos visuales; los cambios de estado se controlan en JavaScript. No repitas las etiquetas en HTML salvo que sean necesarias.
